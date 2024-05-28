@@ -18,7 +18,7 @@ const HeroSection = () => {
               </p>
 
               <div
-                  className="flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4"
+                  className="button-container"
               >
                     <a href="#" className="button-green">Download for iOS</a>
                     <a href="#" className="button-blue">Download for Mac</a>

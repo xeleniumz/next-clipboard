@@ -1,17 +1,19 @@
-import {HeroSection, SnippetSection, FeatureSection, AccessSection, SuperChargeSection} from "@/components/shared/section/";
-import Image from "next/image";
-
+import {HeroSection, SnippetSection, FeatureSection, AccessSection, SuperChargeSection, RefSection, BottomCtaSection} from "@/components/shared/section/";
+import Footer from "@/components/shared/Footer";
 
 
 export default function Home() {
   return (
-    <div>
+    <>
       <HeroSection />
       <SnippetSection />
       <FeatureSection />
       <AccessSection />
       <SuperChargeSection />
-    </div>
+      <RefSection />
+      <BottomCtaSection />
+      <Footer />
+    </>
 
   );
 }
