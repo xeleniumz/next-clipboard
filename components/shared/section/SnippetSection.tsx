@@ -3,13 +3,12 @@ import React from 'react'
 const SnippetSection = () => {
   return (
     <section>
-        <div className="section-container my-20 px-10">
+        <div className="section-container my-20">
             <h3>
                 Keep track of your snippets
             </h3>
                 <p
-                  className="max-w-3xl mx-auto mb-24 text-xl leading-9 text-center text-darkGrayishBlue 
-                  md:text-5xl
+                  className="section-content mb-24 text-xl
                 ">
                     Clipboard instantly stores any item you copy in the cloud, meaning you
                     can access your snippets immediately on all your devices. Our Mac and

@@ -4,7 +4,7 @@ import Image from 'next/image'
 const HeroSection = () => {
   return (
     <section>
-        <div className="section-container mb-40 px-10 pt-20">
+        <div className="section-container mb-40 pt-20">
               <img
                   src="/images/logo.svg"
                   alt=""
