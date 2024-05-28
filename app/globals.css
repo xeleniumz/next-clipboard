@@ -2,32 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  h3 {
+    @apply mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.section-container {
+  @apply max-w-6xl mx-auto text-center;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.button-green {
+  @apply p-4 px-8 rounded-full shadow-lg bg-strongCyan duration-200 hover:opacity-80;
+}
+
+.button-blue {
+  @apply p-4 px-8 rounded-full shadow-lg bg-lightBlue duration-200 hover:opacity-80;
+}
+
+body {
+  background-image: url("/images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 576px) {
+  body {
+    background-image: url("/images/bg-header-mobile.png");
   }
 }
