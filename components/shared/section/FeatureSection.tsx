@@ -17,7 +17,7 @@ const FeatureSection = () => {
                 md:w-1/2 md:mb-60 md:text-left md:pl-16"
               >
                 <div>
-                  <h5 className="mb-2 text-2xl font-bold text-darkGrayishBlue">Quick Search</h5>
+                  <h5>Quick Search</h5>
                   <p className="p max-w-md text-greyishBlue">
                       Easily search your snippets by content, category, web address,
                       application, and more.
